@@ -1,0 +1,38 @@
+1.5.2  1.4.2002
+==============================================================
+[+] je mozno poslat e-mail autorovi - menu upravy, kontextove nabidky
+[+] okénko rychlého hledání (Ctrl+G) pøesunuto na ToolBar
+[!] pri vytvoreni tabulky je smazan ini soubor s informacemi o DB, pokud existoval
+[!] opraveno podivne chovani gridu pri nezobrazenem ID zpravy
+[-] menu informace a tool bar nejsou zarovnany vpravo
+
+1.5.1  6.12.2002
+==============================================================
+[!] oprava chyby pri pridani dat, vyberu typu a ESC po OpenDialogu
+[-] omezeni max. delky nazvu souboru drive otevrenych databazi v menu Soubor
+
+1.5.0  5.12.2002
+==============================================================
+[+] po kliknuti pravym tlacitkem na e-mail v hlavicce zpravy je mozno primo vytvorit e-mail
+[+] po stisku OK v dialogu nastaveni programu se ulozi nastaveni
+[+] pridano zapamatovani si poslednich adresaru dialogu pro jednotlive typy souboru
+[+] soubory .LCK a .NET presmerovany do Temp adresare
+[+] upraven vzhled na WinXP
+[+] optimalizace kontroly existence zaznamu pri nacitani dat
+[+] krome zobrazovani hintu na statusbaru zapnuto i klasicke zobrazovani
+[+] doplnena lokalizace dialogu MessageDlg
+[+] v dialogu nastaveni programu doplneno tlacitko Storno
+[+] About dialog jde ukoncit i na ESC
+[+] pridan debug dialog z JCL, takze s MAP souborem je mozno zjistit presnou lokaci chyby
+[+] pozice vsech dialogu nastavena na MainFormCenter
+[+] ve vsech dialozich nastaven rez pisma na EasternEourope
+[-] zruseny vsechny dialogy z AutoCreate Forms, vsechny se vytvari dynamicky
+[-] zruseny 2 OpenDialogy + 1 SaveDialog a sjednoceno do jednoho
+[-] prime volani Destroy objektu nahrazeno za Free, popr. Release
+[-] vsechny dialogy MB nahrazeny standardnimi
+[-] z projektu vyhozeny nepotrebne formulare (historicke pozustatky)
+[!] opravena chyba "invalid parameters" pøi naèítání
+[!] opravena chyba pøi prohlížení
+[!] opraveny chyby pri presouvani zalozek v dialogu Editace zalozek
+[!] pri ukladani zalozek do INI souboru se ukladaly i prvni 2 z menu
+[!] opravena chyba pri kliknuti na hlavicku mailu pri neotevrene tabulce

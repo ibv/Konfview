@@ -1,0 +1,87 @@
+object fStopRead: TfStopRead
+  Left = 426
+  Top = 338
+  BorderStyle = bsNone
+  Caption = 'fStopRead'
+  ClientHeight = 98
+  ClientWidth = 138
+  Color = clBtnFace
+  Font.Charset = EASTEUROPE_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  OnActivate = FormActivate
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Bevel1: TBevel
+    Left = 8
+    Top = 8
+    Width = 121
+    Height = 81
+    Shape = bsFrame
+  end
+  object Bevel2: TBevel
+    Left = 0
+    Top = 0
+    Width = 138
+    Height = 98
+    Align = alClient
+    Style = bsRaised
+  end
+  object Label1: TLabel
+    Left = 16
+    Top = 16
+    Width = 58
+    Height = 26
+    Caption = 'Načítám příspěvek'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    WordWrap = True
+  end
+  object Image1: TImage
+    Left = 96
+    Top = 20
+    Width = 25
+    Height = 25
+    AutoSize = True
+    Picture.Data = {
+      07544269746D617006020000424D060200000000000076000000280000001900
+      0000190000000100040000000000900100000000000000000000100000000000
+      000000000000000080000080000000808000800000008000800080800000C0C0
+      C000808080000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFF
+      FF00333333111111111111133333300000003333331111111111111333333000
+      000033333338FF000000103333333000000033333338FF000000103333333000
+      000033333338FF000007103333333000000033333338FF700077103333333000
+      000033333338FF7707771033333330000000333333387FF77777103333333000
+      0000333333338FF7777713333333300000003333333387FF0777133333333000
+      000033333333187F777813333333300000003333333311870783133333333000
+      0000333333331138083313333333300000003333333311800083133333333000
+      00003333333318F000081333333330000000333333338FF00000133333333000
+      0000333333338F777777133333333000000033333338FF777777103333333000
+      000033333338FF777777103333333000000033333338FF777777103333333000
+      000033333338FF777777103333333000000033333338FF777777103333333000
+      000033333338FF77777710333333300000003333331111111111111333333000
+      000033333311111111111113333330000000
+    }
+    Transparent = True
+  end
+  object btStop: TButton
+    Left = 16
+    Top = 56
+    Width = 105
+    Height = 25
+    Cancel = True
+    Caption = '&Stop'
+    ModalResult = 7
+    TabOrder = 0
+    OnClick = btStopClick
+  end
+end
